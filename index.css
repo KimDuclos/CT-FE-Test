@@ -67,7 +67,7 @@ li {
   font-family: "Bebas Neue", cursive;
   font-size: 50px;
   color: #ff6200;
-  margin: 0 32% 0 0;
+  margin: 0 34% 0 0;
 }
 
 .title {
@@ -77,6 +77,89 @@ li {
   font-weight: lighter;
 }
 
+/* Dropdown Button */
+.dropbtn {
+  background-color: #f9f9f9;
+  color: #000000;
+  font-size: 13px;
+  border: none;
+  font-family: "Bebas Neue", cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.dropbtn2 {
+  background-color: #f9f9f9;
+  color: #000000;
+  font-size: 13px;
+  border: none;
+  font-family: "Bebas Neue", cursive;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #000000;
+  padding: auto;
+  text-decoration: none;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+}
+
+.dropdown-content2 a {
+    color: #000000;
+    padding: auto;
+    text-decoration: none;
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+  }
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+  border: none;
+  outline: none;
+}
+
+.dropdown-content2 a:hover {
+    background-color: #ddd;
+  }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+  }
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+
 .bottomSection {
   padding: 0 5% 0 5%;
 }
@@ -84,7 +167,7 @@ li {
 .slashMenu {
   font-family: "Ubuntu", sans-serif;
   color: #868080;
-  margin: 5% 0 0 0;
+  margin: 5% 0 4% 0;
   font-size: 14px;
 }
 
@@ -92,6 +175,13 @@ li {
   font-family: "Ubuntu", sans-serif;
   font-weight: bolder;
   font-size: 26.96px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 85%;
 }
 
 .contactSection {
@@ -207,7 +297,7 @@ button {
 }
 
 .reachUs {
-  width: 45%;
+  width: 40%;
 }
 
 .reachUs h3 {
@@ -217,7 +307,21 @@ button {
   font-weight: lighter;
 }
 
+.reachUs hr {
+  margin: 0 0 2% 0;
+}
+
 .reachUs img {
-    height: 5%;
-    width: 5%;
+  height: 7%;
+  width: 7%;
+}
+
+.addressPhone {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #868080;
+}
+
+.socialMedia {
+  margin: 9% 0 0 0;
 }
