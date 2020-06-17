@@ -4,14 +4,15 @@ body {
 .orangeNavBlock {
   background-color: #ff6200;
   width: 100%;
-  height: 35px;
-  padding: 1% 0 0 0;
+  height: 30px;
+  padding: 0.5% 0 0 15%;
 }
 
 .lightGrayNavBlock {
   background-color: #f9f9f9;
   width: 100%;
   height: 100px;
+  padding: 0 0 0 15%;
 }
 
 nav {
@@ -27,20 +28,21 @@ li {
   font-family: "Bebas Neue", cursive;
   font-size: 20px;
   color: #be3600;
-  margin: 0 10px 0 10%;
+  margin: 0 10px 0 0;
 }
 
 .number {
   font-family: "Bebas Neue", cursive;
   font-size: 20px;
   color: #ffffff;
-  margin: 0 50% 0 0;
+  margin: 0 45% 0 0;
 }
 
 .login {
   font-family: "Bebas Neue", cursive;
   font-size: 20px;
   color: #be3600;
+  margin: 0 1% 0 0;
 }
 
 .signUp {
@@ -55,16 +57,24 @@ li {
   color: #000000;
 }
 
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 1.75% 0 0 0;
+}
+
 .logo {
   font-family: "Bebas Neue", cursive;
   font-size: 50px;
   color: #ff6200;
+  margin: 0 32% 0 0;
 }
 
 .title {
   font-family: "Bebas Neue", cursive;
-  font-size: 16px;
-  font-weight: 100;
+  font-size: 13px;
+  margin: 0 1.5% 0 0;
+  font-weight: lighter;
 }
 
 .bottomSection {
@@ -73,11 +83,15 @@ li {
 
 .slashMenu {
   font-family: "Ubuntu", sans-serif;
-  font-weight: lighter;
+  color: #868080;
+  margin: 5% 0 0 0;
+  font-size: 14px;
 }
 
 .contact {
   font-family: "Ubuntu", sans-serif;
+  font-weight: bolder;
+  font-size: 26.96px;
 }
 
 .contactSection {
@@ -87,10 +101,35 @@ li {
 .contactSection h3 {
   font-family: "Bebas Neue", cursive;
   color: #ff6200;
+  font-size: 25.96px;
 }
 
 .contactSection p {
   font-family: "Ubuntu", sans-serif;
+  margin: 0 0 6% 0;
+}
+
+.contactSection h3 {
+  color: #ff6200;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+hr {
+  height: 5px;
+  border: 1px solid #000000;
+  background-color: #000000;
+}
+
+.contactUsBar {
+  margin: 0 0 4% 0;
+}
+
+.contactSection p {
+  font-family: "Ubuntu", sans-serif;
+  color: #868080;
 }
 
 .contactInfo {
@@ -100,16 +139,19 @@ li {
 .contactInfo h3 {
   font-family: "Open Sans", sans-serif;
   color: #ff6200;
+  font-size: 23px;
+  font-weight: lighter;
 }
 
 .nameBox {
   width: 98%;
-  height: 20px;
+  height: 25px;
   background-color: #f6f6f6;
   margin: 0 0 2% 0;
-  padding: 0 0 0 2%;
+  padding: 2% 0 0 2%;
   font-family: "Ubuntu", sans-serif;
   color: #868080;
+  font-size: 14px;
 }
 
 .phoneAndEmail {
@@ -118,9 +160,9 @@ li {
   flex-direction: row;
   justify-content: space-around;
   margin: 0 0 2% 0;
-  /* padding: 0 0 0 2%; */
   font-family: "Ubuntu", sans-serif;
   color: #868080;
+  font-size: 14px;
 }
 
 .phoneBox {
@@ -128,7 +170,7 @@ li {
   height: 20px;
   background-color: #f6f6f6;
   margin: 0 2% 0 0;
-  padding: 0 0 0 2%;
+  padding: 2% 0 0 2%;
   font-family: "Ubuntu", sans-serif;
   color: #868080;
 }
@@ -137,7 +179,7 @@ li {
   width: 49%;
   height: 20px;
   background-color: #f6f6f6;
-  padding: 0 0 0 2%;
+  padding: 2% 0 0 2%;
   font-family: "Ubuntu", sans-serif;
   color: #868080;
 }
@@ -145,11 +187,37 @@ li {
 .messageBox {
   height: 100px;
   background-color: #f6f6f6;
-  padding: 0 0 0 2%;
+  padding: 2% 0 0 2%;
   font-family: "Ubuntu", sans-serif;
   color: #868080;
+  font-size: 14px;
+  margin: 0 0 4% 0;
 }
 
-.submitButton {
+button {
   background-color: #ff6200;
+  border-radius: 2%;
+  border-style: none;
+  color: #ffffff;
+  font-size: 13.04px;
+  height: 35px;
+  width: 90px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.reachUs {
+  width: 45%;
+}
+
+.reachUs h3 {
+  font-family: "Open Sans", sans-serif;
+  color: #ff6200;
+  font-size: 23px;
+  font-weight: lighter;
+}
+
+.reachUs img {
+    height: 5%;
+    width: 5%;
 }
