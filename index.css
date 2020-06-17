@@ -1,14 +1,155 @@
 body {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 .orangeNavBlock {
-    background-color: #ff6200;
-    width: 100%;
-    height: 50px;
+  background-color: #ff6200;
+  width: 100%;
+  height: 35px;
+  padding: 1% 0 0 0;
 }
 
 .lightGrayNavBlock {
-    background-color: #f9f9f9;
-    width: 100%;
-    height: 100px;
+  background-color: #f9f9f9;
+  width: 100%;
+  height: 100px;
+}
+
+nav {
+  display: inline;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+.callUsNow {
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  color: #be3600;
+  margin: 0 10px 0 10%;
+}
+
+.number {
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 0 50% 0 0;
+}
+
+.login {
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  color: #be3600;
+}
+
+.signUp {
+  font-family: "Bebas Neue", cursive;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.your {
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+  color: #000000;
+}
+
+.logo {
+  font-family: "Bebas Neue", cursive;
+  font-size: 50px;
+  color: #ff6200;
+}
+
+.title {
+  font-family: "Bebas Neue", cursive;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.bottomSection {
+  padding: 0 5% 0 5%;
+}
+
+.slashMenu {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: lighter;
+}
+
+.contact {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.contactSection {
+  width: 65%;
+}
+
+.contactSection h3 {
+  font-family: "Bebas Neue", cursive;
+  color: #ff6200;
+}
+
+.contactSection p {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.contactInfo {
+  width: 40%;
+}
+
+.contactInfo h3 {
+  font-family: "Open Sans", sans-serif;
+  color: #ff6200;
+}
+
+.nameBox {
+  width: 98%;
+  height: 20px;
+  background-color: #f6f6f6;
+  margin: 0 0 2% 0;
+  padding: 0 0 0 2%;
+  font-family: "Ubuntu", sans-serif;
+  color: #868080;
+}
+
+.phoneAndEmail {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 0 2% 0;
+  /* padding: 0 0 0 2%; */
+  font-family: "Ubuntu", sans-serif;
+  color: #868080;
+}
+
+.phoneBox {
+  width: 49%;
+  height: 20px;
+  background-color: #f6f6f6;
+  margin: 0 2% 0 0;
+  padding: 0 0 0 2%;
+  font-family: "Ubuntu", sans-serif;
+  color: #868080;
+}
+
+.emailBox {
+  width: 49%;
+  height: 20px;
+  background-color: #f6f6f6;
+  padding: 0 0 0 2%;
+  font-family: "Ubuntu", sans-serif;
+  color: #868080;
+}
+
+.messageBox {
+  height: 100px;
+  background-color: #f6f6f6;
+  padding: 0 0 0 2%;
+  font-family: "Ubuntu", sans-serif;
+  color: #868080;
+}
+
+.submitButton {
+  background-color: #ff6200;
 }
