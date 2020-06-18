@@ -358,11 +358,6 @@ button {
   margin: 0 0 2% 0;
 }
 
-/* .reachUs img {
-  height: 7%;
-  width: 7%;
-} */
-
 .socialMedia {
   margin: 14% 0 0 0;
 }
@@ -378,14 +373,13 @@ button {
 }
 
 .linkedInIcon {
-    width: 7.2%;
-    height: 7%;
-    margin: 0 0 .2% 0;
+  width: 7.2%;
+  height: 7%;
+  margin: 0 0 0.2% 0;
 }
 
 .pinterestIcon {
-    width: 7.1%;
-    height: 7.2%;
-    margin: 0 0 .2% .5%;
+  width: 7.1%;
+  height: 7.2%;
+  margin: 0 0 0.2% 0.5%;
 }
-
