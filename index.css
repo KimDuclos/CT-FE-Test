@@ -1,5 +1,6 @@
-/* Due to time restraint of test, page is not made responsive or completely pixel perfect 
-(depending on your monitor aspect ratio). 
+/* Due to time restraint of test, page is not made responsive 
+(depending on your monitor aspect ratio). This was created to be pixel perfect 
+using 16*9/1080p monitors.
 
 I stuck to basic CSS with no
 preprocessor. There is some Flexbox just to simplify some code. 
