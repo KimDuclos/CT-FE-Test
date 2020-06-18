@@ -212,6 +212,11 @@ li {
   font-size: 14px;
 }
 
+.slashMenu a {
+    text-decoration: none;
+    color: #868080;
+}
+
 .contact {
   font-family: "Ubuntu", sans-serif;
   font-weight: bolder;
