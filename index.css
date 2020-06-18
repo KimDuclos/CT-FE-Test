@@ -2,14 +2,12 @@
 (depending on your monitor aspect ratio). 
 
 I stuck to basic CSS with no
-preprocessor. There is some Flexbox just to simplify some things. 
+preprocessor. There is some Flexbox just to simplify some code. 
 
-To see submenus, hover over "Title 2" and then "SUBMENU 3"
+To see submenus, hover over "Title 2" and then "SUBMENU 3 for the child SUBMENU"
 
 Fonts may not be a perfect match, as they are from Google fonts - some were only available
-for pay on Adobe Typekit.
-
-Links for Logo (home link) and remaining title menu items needs to be  filled in.
+for pay on Adobe Typekit - i.e and exact match of Bebas
 */
 
 body {
@@ -79,13 +77,13 @@ li {
 }
 
 .your a {
-    text-decoration: none;
-    color: #000000;
+  text-decoration: none;
+  color: #000000;
 }
 
 .logo a {
-    text-decoration: none;
-    color: #ff6200;
+  text-decoration: none;
+  color: #ff6200;
 }
 
 .logo {
@@ -96,8 +94,8 @@ li {
 }
 
 .dropbtn a {
-    text-decoration: none;
-    color: #000000;
+  text-decoration: none;
+  color: #000000;
 }
 
 .title {
@@ -108,8 +106,8 @@ li {
 }
 
 .title a {
-    text-decoration: none;
-    color: #000000;
+  text-decoration: none;
+  color: #000000;
 }
 
 /* Dropdown Button */
@@ -341,6 +339,10 @@ button {
   font-weight: 600;
 }
 
+button {
+    outline-color: #858080;
+} 
+
 .reachUs {
   width: 40%;
   font-family: "Open Sans", sans-serif;
@@ -367,12 +369,21 @@ button {
   margin: 14% 0 0 0;
 }
 
-.facebookIcon  {
-    height: 10.5% !important;
-    width: 7.5% !important;
+.facebookIcon {
+  height: 7.2%;
+  width: 7.5%;
 }
 
 .twitterIcon {
-    height: 10.5% !important;
-    width: 7.5% !important;
+  height: 10%;
+  width: 7.5%;
 }
+
+.linkedInIcon {
+    margin: 0 0 .35% 0;
+}
+
+.pinterestIcon {
+    margin: 0 0 .35% .5%;
+}
+
